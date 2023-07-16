@@ -1,0 +1,62 @@
+.testing-box-model {
+    margin: 32px;
+    border: 8px dashed black;    
+    padding: 16px;    
+    background-color: aquamarine;
+}
+.display-inline span {
+    display: inline;
+    background-color: orange; 
+    margin: 16px;
+}
+.display-block span {
+    display: block;
+    background-color: green;
+    margin: 16px;
+}
+.display-inline-block span {
+    background-color: plum;
+    display: inline-block;
+    margin: 16px;
+}
+.display-none {
+  /*  display: none; ta komenda mozna ukryc tekst */
+}
+.box-sizing-border-box {
+    box-sizing: border-box;
+    border: 10px solid black;
+    margin: 16px;
+    padding: 16px;
+    width: 300 px;
+    height: 200px;
+}
+.box-sizing-content-box {
+    box-sizing: content-box;
+    border: 10px solid black;
+    margin: 16px;
+    padding: 16px;
+    width: 300 px;
+    height: 200px;
+}
+.css-units-px {
+    border: 5px solid black;
+    padding: 32px;
+}
+.css-units-em {
+    border: 5px solid black;
+    padding: 2em;
+}
+.css-units-rem {
+    border: 5px solid black;
+    padding: 0.25rem;
+}
+.css-units-percent {
+    border: 5px solid black;
+    width: 50%;
+}
+.testing-overflow {
+    border: 10px solid black;
+    max-height: 150px;
+    /* overflow: scroll; */
+    overflow-y: scroll;
+}
