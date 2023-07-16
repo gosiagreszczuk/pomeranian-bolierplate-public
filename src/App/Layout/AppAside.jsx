@@ -7,6 +7,7 @@ import { CalendarIcon } from '../Components/Icons/CalendarIcon';
 import { BookIcon } from '../Components/Icons/BookIcon';
 
 import './styles/aside.css';
+import { MessageIcon } from '../Components/Icons/MessageIcon';
 
 export function AppAside() {
   return (
@@ -36,6 +37,10 @@ export function AppAside() {
           <li>
             <BookIcon className="icon" />
             <NavLink to="blog">Blog</NavLink>
+          </li>
+          <li>
+            <MessageIcon className="icon" />
+            <NavLink to="faq">FAQ</NavLink>
           </li>
         </ul>
       </nav>
