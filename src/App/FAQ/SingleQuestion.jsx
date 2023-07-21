@@ -13,7 +13,7 @@ export function SingleQuestion({ question, answer }) {
       <h2 className="question-header">{question}</h2>
 
       {visible && (
-        <div className="question-asnwer">
+        <div className="question-answer">
           <hr />
           <p>{answer}</p>
         </div>
